@@ -26,10 +26,7 @@ const part1 = [
 	"\"Alright, cool. Hop on over to xxx.xxxxxx.xxxx\” <br> <i> Clicks </i> <br> Sigh <br> You walk into the digital lightspeed interface technology (DigLIT for short) and prepare for another day at work… <br>", 
 	"Part 2: <u> The Internet Town </u>",
 	" <i> White. <br> Suddenly, <br> Bright light flashes through your eyes and over your head. More, a symphony of colors. A flash of every color both known and unknown to humankind. </i>",
-	"In an instant, you find yourself materializing in a blank world. "
-];
-
-const part2 = [
+	"In an instant, you find yourself materializing in a blank world. ",
 	"You see a luxurious mansion in the middle of a serene grassy field. There is a pond to the side with fish darting back and forth… nature is alive. <br> You fix your gaze towards the double oak wood doors that adorn the front of the mansion. <br> You walk towards the doors and slowly open the door… ",
 	"deadMan.jpg",
 	"You see caution tape surrounding the whole scene… but at first glance, nothing seems out of the ordinary except for the dead man at the floor of the staircase. The whole room feels… empty. You walk around the room taking note of everything out of the ordinary. <br> The wet spots on the red rug, presumably from blood. The phone in the man’s outstretched hand. The peaceful expression. You notice something off about the man’s throat, but right as you are about to investigate, you hear a car pulling up to the driveway.",
