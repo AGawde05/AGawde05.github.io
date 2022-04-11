@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script type='text/javascript'>
+      var answerArray = new Array("yes", "no", "maybe");
+
+      function getAnswer() {
+        document.getElementById('location').innerHTML = 
+          answerArray[Math.floor(Math.random() * answerArray.length)];
+      }
+    </script>
+  </head>
+  <body>
+    <input id='questionField' type='text' /><br/>
+    <input type='submit' value='Ask Me!' onclick='getAnswer()' />
+    <div id='location'></div>
+  </body>
+</html>

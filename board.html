@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="boardStyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<title>Find the Murder</title>
+		<div class="wrapper">
+			<div class="cardWrapper">
+			  <div class="rotate">
+				<div class="back">
+				  <div class="background">
+					<div class="headerWrapper">
+					  <div class="title" id="location">Facebook</div>
+					  <div class="subtitle" id="locationSub">Fairway</div>
+					</div>
+					<div class="bodyWrapper">
+					  <div class="mortgagedWrapper" id="mortgage">
+						Mortgaged </br>for $175
+					  </div>
+					  <div class="description">card must be turned this side up if property is mortgaged</div>
+					</div>
+				  </div>
+				</div>
+				<div class="front">
+				  <div class="background">
+					<div class="headerWrapper" id="propertyColor">
+					  <div class="title">title deed</div>
+					  <div class="avenue" id="backTitle">Facebook Fairway</div>
+					</div>
+		  
+					<div class="bodyWrapper">
+					  <div class="rent">Rent $35.</div>
+					  <div class="priceWrapper">
+						<div>With 1 House</div>
+						<div><span class="sign">$</span>175.</div>
+					  </div>
+					  <div class="priceWrapper">
+						<div>With 2 Houses</div>
+						<div>500.</div>
+					  </div>
+					  <div class="priceWrapper">
+						<div>With 3 Houses</div>
+						<div>1100.</div>
+					  </div>
+					  <div class="priceWrapper">
+						<div>With 4 Houses</div>
+						<div>1300.</div>
+					  </div>
+		  
+					  <div class="descriptionWrapper">
+						<div>With HOTEL $1500.</div>
+						<div>With Skyscraper $2500.</div>
+						<div class="description morgage">Morgage Value $175.</div>
+						<div>Houses cost $200. each</div>
+						<div>Hotels, $200. plus houses</div>
+						<div>Skyscraper, $200. plus 1 hotel</div>
+						<h6>Feel free to explore the social media pages</h6>
+
+						<div>
+							<a id="buyLink" href="https://www.facebook.com/permalink.php?story_fbid=111141254890029&id=100079824657297" target="_blank" class="button1" style="left: 20%; right: 50%; bottom: 10px;">Buy Property</a>
+							<a id="noBuyLink" href="https://www.facebook.com/permalink.php?story_fbid=111141924889962&id=100079824657297" target="_blank" class="button1" style="right: 20%; left: 50%; bottom: 10px;">No Thanks</a>
+
+						</div>
+					  </div>
+		  
+					  <div class="note">
+						TRIPp, or DOUBLED if all but one lot is owned.
+					  </div>
+					  <div class="note">
+						2005 Hasbro. 44167-C2
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="table">
+			<div class="board">
+				<div class="center">
+ 					<div class="community-chest-deck">
+						<h3 class="label">Community Chest</h2>
+						<div class="deck"></div>
+					</div> 
+					<h1 class="title">MONOPOLY</h1>
+					<script>
+						var answerArray = new Array("Facebook", "Twitter", "MySpace", "Pinterest", "Reddit", "TikTok", "Instagram", "YouTube", "WhatsApp", "WeChat", "WEIBO", "Snapchat", "Telegram", "LinkedIn")
+						var locationSubArr = new Array("Fairway", "Tower", "Mile", "Plaza", "Road", "Tidal Zone", "Igloo", "Yard", "Wharf", "Way", "Waterfront", "Street", "Theater", "Lane")
+						var mortgage = new Array("30", "30", "60", "60", "90", "90", "110", "120", "140", "140", "150", "160", "175", "200")
+						var buyLinkArr = new Array("https://www.facebook.com/permalink.php?story_fbid=111141254890029&id=100079824657297", "https://twitter.com/JasonQi64515393/status/1510691680063787008", "nothing.html", "https://www.pinterest.com/pin/1067916130363019549/", "https://www.reddit.com/user/Jobbobblog/comments/twwssm/sold/", "https://vm.tiktok.com/TTPd9R9DKY/", "https://www.instagram.com/p/Cb5inePunsU/", "https://youtu.be/Qq6EJqcO_Ns", "https://docs.google.com/document/d/173dwbsPFFeawbXZW7GUZoRz0TFBOH7gBaZmAOJV4Ung/edit", "nothing.html", "nothing.html", "https://docs.google.com/document/d/1362u4XYuBTiQSiqgoyxr89b2WPdYop6fzbt4q4viEDY/edit?usp=sharing", "nothing.html", "nothing.html")
+						var noBuyLink = new Array("https://www.facebook.com/permalink.php?story_fbid=111141924889962&id=100079824657297", "https://twitter.com/JasonQi64515393/status/1510692173108461574", "nothing.html", "https://www.pinterest.com/pin/1067916130363019574/", "https://www.reddit.com/user/Jobbobblog/comments/twwuzn/_/", "https://vm.tiktok.com/ZTd9RQPcg/", "https://www.instagram.com/p/Cb5inePunsU/", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://docs.google.com/document/d/16kl4WDuyHXvf3ma5cfybR7GqnOfU9X4PTcodmQO7wtg/edit", "nothing.html", "nothing.html", "https://docs.google.com/document/d/160B71NVLL4TAqnRKG1YSIIguW_MspleIfD5xtCJWXiA/edit?usp=sharing", "nothing.html", "nothing.html")
+						var colorArr = new Array("#5e3577", "#5e3577", "#d2eaf5", "#b02f7c", "#b02f7c", "#fa811d", "#fa811d", "#f50c2b", "#f50c2b", "#ffed20", "#ffed20", "#41994e", "#5a6dba", "#5a6dba")
+
+						
+						function myFunction() {
+						  document.getElementById("location").innerHTML = answerArray[Math.floor(Math.random() * answerArray.length)];
+						  let index = answerArray.indexOf(document.getElementById("location").innerHTML);
+						  document.getElementById("locationSub").innerHTML = locationSubArr[index];
+						  document.getElementById("mortgage").innerHTML = "Mortgaged for $" + mortgage[index];
+						  document.getElementById("backTitle").innerHTML = document.getElementById("location").innerHTML + " " + document.getElementById("locationSub").innerHTML;
+						  document.getElementById("buyLink").href = buyLinkArr[index];
+						  document.getElementById("noBuyLink").href = noBuyLink[index];
+						  document.getElementById("propertyColor").style.backgroundColor = colorArr[index];
+						}
+						</script>
+					<a class="button1" onclick="myFunction()">Click to Roll Dice</a>					
+ 					<div class="chance-deck">
+						<h3 class="label">Chance</h2>
+						<div class="deck"></div>
+					</div> 
+				</div>
+				
+			<!-- Bottom row-->
+				<div class="space corner go">
+					<div class="container">
+						<div class="instructions">Collect $200.00 salary as you pass</div>
+						<div class="go-word">go</div>
+					</div>
+					<div class="arrow fa fa-long-arrow-left"></div>
+				</div>
+
+				<div class="row horizontal-row bottom-row">
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar light-blue"></div>
+							<div class="name">Myspace Mile</div>
+							<div class="price">Price $100</div>
+						</div>
+					</div>
+					<div class="space railroad">
+						<div class="container">
+							<div class="name">VPN</div>
+							<i class="drawing fa fa-shield"></i>
+							<div class="price">Price $200</div>
+						</div>
+					</div>
+					<div class="space fee income-tax">
+						<div class="container">
+							<div class="name">Income Tax</div>
+							<div class="diamond"></div>
+							<div class="instructions">Pay 10%<br>or<br>$200</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar dark-purple"></div>
+							<div class="name">Twitter Tower</div>
+							<div class="price">Price $50</div>
+						</div>
+					</div>
+					<div class="space community-chest">
+						<div class="container">
+							<div class="name long-name">Community Chest</div>
+							<i class="drawing fa fa-cube"></i>
+							<div class="instructions">Follow instructions on top card</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar dark-purple"></div>
+							<div class="name long-name">Facebook Fairway</div>
+							<div class="price">Price $50</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="space corner jail">
+					<div class="just">Just</div>
+					<div class="drawing">
+						<div class="container">
+							<div class="name">In</div>
+							<div class="window">
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<i class="person fa fa-frown-o"></i>
+							</div>
+							<div class="name">Jail</div>
+						</div>
+					</div>
+					<div class="visiting">Visiting</div>
+				</div>
+				<div class="row vertical-row left-row">
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar orange"></div>
+							<div class="name long-name">Instagram Igloo</div>
+							<div class="price">Price $180</div>
+						</div>
+					</div>
+					<div class="space railroad">
+						<div class="container">
+							<div class="name">WiFi</div>
+							<i class="drawing fa fa-wifi"></i>
+							<div class="price">Price $200</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar orange"></div>
+							<div class="name three-line-name"> Tiktok Tidal Zone</div>
+							<div class="price">Price $160</div>
+						</div>
+					</div>
+					<div class="space utility electric-company">
+						<div class="container">
+							<div class="name long-name">Electricity</div>
+							<i class="drawing fa fa-lightbulb-o"></i>
+							<div class="price">Price $150</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar purple"></div>
+							<div class="name">Reddit Road</div>
+							<div class="price">Price $140</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar purple"></div>
+							<div class="name long-name">Pinterest Plaza</div>
+							<div class="price">Price $140</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="space corner free-parking">
+					<div class="container">
+						<div class="name">Free</div>
+						<i class="drawing fa fa-car"></i>
+						<div class="name">Parking</div>
+					</div>
+				</div>
+
+				<div class="row horizontal-row top-row">
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar red"></div>
+							<div class="name">Youtube Yard</div>
+							<div class="price">Price $200</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar red"></div>
+							<div class="name long-name">Whatsapp Wharf</div>
+							<div class="price">Price $260</div>
+						</div>
+					</div>
+					<div class="space railroad">
+						<div class="container">
+							<div class="name long-name">World Wide Web</div>
+							<i class="drawing fa fa-globe"></i>
+							<div class="price">Price $200</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar yellow"></div>
+							<div class="name">WeChat Way</div>
+							<div class="price">Price $260</div>
+						</div>
+					</div>
+					<div class="space utility waterworks">
+						<div class="container">
+							<div class="name long-name">Bluetooth</div>
+							<i class="drawing fa fa-bluetooth"></i>
+							<div class="price">Price $120</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar yellow"></div>
+							<div class="name long-name">Weibo Waterfront</div>
+							<div class="price">Price $280</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="space corner go-to-jail">
+					<div class="container">
+						<div class="name">Go To</div>
+						<i class="drawing fa fa-gavel"></i>
+						<div class="name">Jail</div>
+					</div>
+				</div>
+				<div class="row vertical-row right-row">
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar green"></div>
+							<div class="name long-name">Snapchat Street</div>
+							<div class="price">Price $320</div>
+						</div>
+					</div>
+					<div class="space railroad">
+						<div class="container">
+							<div class="name">HTTPS</div>
+							<i class="drawing fa fa-lock"></i>
+							<div class="price">Price $200</div>
+						</div>
+					</div>
+					<div class="space chance">
+						<div class="container">
+							<div class="name">Chance</div>
+							<i class="drawing fa fa-question"></i>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar dark-blue"></div>
+							<div class="name long-name">Telegram Theater</div>
+							<div class="price">Price $350</div>
+						</div>
+					</div>
+					<div class="space fee luxury-tax">
+						<div class="container">
+							<div class="name">Luxury Tax</div>
+							<div class="drawing fa fa-diamond"></div>
+							<div class="instructions">Pay $75.00</div>
+						</div>
+					</div>
+					<div class="space property">
+						<div class="container">
+							<div class="color-bar dark-blue"></div>
+							<div class="name long-name">LinkedIn Lane</div>
+							<div class="price">Price $400</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
