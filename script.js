@@ -67,7 +67,7 @@ const part3 = [
 	" <i> Click. </i> <br> You see the paycheck rolling into your virtual account. <br> <i> Sigh <br> Another day of work… </i>", 
 	"You lie back down on your bed, thinking about the climate change thoughts the penguin was spouting.", 
 	"<i> Hmph. </i> You let out a small smile. <i> If only the world was that naive. </i>", 
-	"endPhoto.jpeg"
+	"endPhoto.jpg"
 ];
 
 let index = 0;
