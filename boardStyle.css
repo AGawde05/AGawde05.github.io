@@ -437,6 +437,7 @@ body {
   overflow: hidden;
 }
 body .wrapper {
+  pad: 10px;
   position: relative;
   height: 475px;
   width: 345px;
@@ -570,7 +571,21 @@ body .wrapper .cardWrapper .rotate .back .background .bodyWrapper .description {
   font-size: 12px;
   line-height: 12px;
 }
-body a {
+#buyLink {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: absolute;
+  left: calc(50% - 96px);
+  bottom: 0;
+  font-style: italic;
+  font-size: 12px;
+  color: #212121;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+#noBuyLink {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   position: absolute;
   left: calc(50% - 96px);
